@@ -4,13 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-import java.util.*;
-import java.lang.Math;
-
-import java.util.*;
-import java.lang.Math;
-
-public class T02 {
+public class T02{
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -21,13 +15,13 @@ public class T02 {
         iSBN = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        tahunTerbit = Integer.parseInt(input.nextLine());
+        tahunTerbit = input.nextInt();
         penerbit = input.nextLine();
         formatBuku = input.nextLine();
-        hargaPembelian = Double.parseDouble(input.nextLine());
-        minimumMargin = Double.parseDouble(input.nextLine());
-        stok = Integer.parseInt(input.nextLine());
-        r = Double.parseDouble(input.nextLine());
+        hargaPembelian = input.nextDouble();
+        minimumMargin = input.nextDouble();
+        stok = input.nextInt();
+        r = input.nextDouble();
         if (r >= 4.7) {
             rating = "best pick";
         } else {
