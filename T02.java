@@ -7,6 +7,9 @@ import java.lang.Math;
 import java.util.*;
 import java.lang.Math;
 
+import java.util.*;
+import java.lang.Math;
+
 public class T02 {
     private static Scanner input = new Scanner(System.in);
 
@@ -24,7 +27,7 @@ public class T02 {
         hargaPembelian = Double.parseDouble(input.nextLine());
         minimumMargin = Double.parseDouble(input.nextLine());
         stok = Integer.parseInt(input.nextLine());
-        rating = input.nextLine();
+        r = Double.parseDouble(input.nextLine());
         if (r >= 4.7) {
             rating = "best pick";
         } else {
